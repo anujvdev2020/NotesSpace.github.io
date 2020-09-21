@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+        color: #fff;
+}
+
+nav a{
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+#logo{
+    width: 60px; height: 60px;
+    border-radius: 50%;
+}
+.navbar{
+    
+   background-color:  #0000009c;
+    width: 100%;
+    padding: 0;
+    color: #fff;
+    background-attachment: fixed; background-color: #0000009c; align-items: center;color: #fff;
+}
+#mainImage{
+    width: 100%; height: 500%;
+}
+.nav-link{
+    color: #fff;
+    
+}
+#notes{
+    height: 50px;
+    width: 50px;
+}
+.notes-head{
+    justify-content: center;
+    font-size: 10px;
+}
+.notes-area{
+  padding: 10px;
+
+}
+.contactMe{
+
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    justify-content: space-between;
+}
+.contactMe:hover{
+    transform: translateY(5px);
+}
+.contact-area{
+
+   
+    margin-top: 150px;
+    align-items: center;
+    
+    background: #cdcdcd;
+}
+
+.m_30{
+    margin: 30px;
+}
+.site-footer {
+    padding: 7rem 0;
+    position: relative;
+    background: #cdcdcd;
+    margin-top: 15rem;
+    padding-top: 0px; padding-bottom: 50px;
+}
+.site-footer.slanted-footer:before {
+    content: "";
+    background: #cdcdcd;
+    height: 200px;
+    -webkit-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    position: absolute;
+    left: 0;
+    top: -100px;
+    right: 0;
+    z-index: -1;
+}
+.ml_-1{
+    margin-left: -1px;
+}
+.p_15{
+    padding: 15px;
+}
+.design{
+    padding: 40px;
+    border: 2px solid #cdcdcd;
+    border-radius: 8px;
+    box-shadow: inset 3px -5px 6px, 5px 2px 2px #fff;
+
+}
+.notes-area:hover{
+    background-color: #e9ecef;
+    transform: translateY(8px);
+    transition-duration: 5s;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+.m_10{
+    margin: 10px;
+}
